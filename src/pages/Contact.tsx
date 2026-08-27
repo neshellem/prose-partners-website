@@ -83,10 +83,10 @@ export const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
                   <div>
                     <strong className="block text-white">Primary Business Email</strong>
                     <a
-                      href="mailto:neshelle@prosepartnersllc.com"
+                      href="mailto:info@prosepartnersllc.com"
                       className="text-gold-300 hover:underline"
                     >
-                      neshelle@prosepartnersllc.com
+                      info@prosepartnersllc.com
                     </a>
                   </div>
                 </div>
@@ -162,7 +162,7 @@ export const Contact: React.FC<ContactProps> = ({ onNavigate }) => {
                   </p>
                   <div className="pt-4 flex flex-col sm:flex-row justify-center gap-3">
                     <a
-                      href={`mailto:neshelle@prosepartnersllc.com?subject=${mailtoSubject}&body=${mailtoBody}`}
+                      href={`mailto:info@prosepartnersllc.com?subject=${mailtoSubject}&body=${mailtoBody}`}
                       className="bg-navy-900 hover:bg-navy-800 text-white font-bold px-6 py-2.5 rounded text-sm transition-colors flex items-center justify-center gap-2"
                     >
                       <Mail className="w-4 h-4 text-gold-400" />

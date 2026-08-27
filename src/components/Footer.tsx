@@ -58,10 +58,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#D4AF37] flex-shrink-0" />
                 <a
-                  href="mailto:neshelle@prosepartnersllc.com"
+                  href="mailto:info@prosepartnersllc.com"
                   className="hover:text-[#D4AF37] transition-colors"
                 >
-                  neshelle@prosepartnersllc.com
+                  info@prosepartnersllc.com
                 </a>
               </div>
               <div className="flex items-center gap-2.5">

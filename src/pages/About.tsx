@@ -44,39 +44,15 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
 
       {/* Main Profile & Mission Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
-          {/* Portrait Column */}
-          <div className="lg:col-span-5 flex flex-col items-center">
-            <div className="relative w-full max-w-sm">
-              <div className="rounded-2xl p-2 bg-gradient-to-tr from-navy-900 via-gold-500 to-navy-800 shadow-xl overflow-hidden">
-                <img
-                  src="/images/owner_portrait.jpg"
-                  alt="ProSe Partners LLC Professional"
-                  className="w-full h-auto object-cover rounded-xl bg-slate-200 aspect-4/5"
-                  referrerPolicy="no-referrer"
-                />
-              </div>
-              <div className="mt-4 p-4 bg-stone-50 border border-slate-200 rounded-lg text-center shadow-2xs">
-                <h3 className="text-xl font-bold text-navy-900">ProSe Partners LLC</h3>
-                <p className="text-xs uppercase tracking-wider text-gold-600 font-bold mt-0.5">
-                  Colorado Legal Document Preparation
-                </p>
-                <div className="mt-3 pt-3 border-t border-slate-200 text-xs text-slate-600 space-y-1">
-                  <div>neshelle@prosepartnersllc.com</div>
-                  <div>(720) 924-1203</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
+        <div className="max-w-4xl mx-auto space-y-8 mb-16">
           {/* Story & Background */}
-          <div className="lg:col-span-7 space-y-6">
+          <div className="space-y-6">
             <div>
               <div className="text-xs uppercase tracking-widest text-gold-600 font-bold mb-1">
                 Our Purpose
               </div>
-              <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">
-                Bridging the Divide in Legal & Administrative Work
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-navy-900">
+                About ProSe Partners LLC
               </h2>
               <div className="h-0.5 w-16 bg-gold-500 mt-2 mb-4" />
             </div>
@@ -94,43 +70,43 @@ export const About: React.FC<AboutProps> = ({ onNavigate }) => {
             </p>
 
             {/* Core Pillars */}
-            <div className="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-stone-50 p-4 rounded-lg border border-slate-200">
-                <div className="flex items-center gap-2 mb-1 text-navy-900 font-bold text-base">
+            <div className="pt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="bg-stone-50 p-5 rounded-lg border border-slate-200">
+                <div className="flex items-center gap-2 mb-1.5 text-navy-900 font-bold text-base">
                   <CheckCircle2 className="w-4 h-4 text-gold-600" />
                   <span>Detail & Precision</span>
                 </div>
-                <p className="text-xs text-slate-600">
+                <p className="text-xs text-slate-600 leading-relaxed">
                   Every caption, exhibit tag, accounting line, and court filing is formatted with rigorous attention to detail.
                 </p>
               </div>
 
-              <div className="bg-stone-50 p-4 rounded-lg border border-slate-200">
-                <div className="flex items-center gap-2 mb-1 text-navy-900 font-bold text-base">
+              <div className="bg-stone-50 p-5 rounded-lg border border-slate-200">
+                <div className="flex items-center gap-2 mb-1.5 text-navy-900 font-bold text-base">
                   <ShieldCheck className="w-4 h-4 text-teal-600" />
                   <span>Ethical Boundaries</span>
                 </div>
-                <p className="text-xs text-slate-600">
+                <p className="text-xs text-slate-600 leading-relaxed">
                   Clear, honest scope definitions. We never mislead clients or provide unauthorized legal advice.
                 </p>
               </div>
 
-              <div className="bg-stone-50 p-4 rounded-lg border border-slate-200">
-                <div className="flex items-center gap-2 mb-1 text-navy-900 font-bold text-base">
+              <div className="bg-stone-50 p-5 rounded-lg border border-slate-200">
+                <div className="flex items-center gap-2 mb-1.5 text-navy-900 font-bold text-base">
                   <Sparkles className="w-4 h-4 text-gold-600" />
                   <span>Predictable Value</span>
                 </div>
-                <p className="text-xs text-slate-600">
+                <p className="text-xs text-slate-600 leading-relaxed">
                   Transparent flat-fee and project-based pricing that eliminates surprises for individuals and law firms.
                 </p>
               </div>
 
-              <div className="bg-stone-50 p-4 rounded-lg border border-slate-200">
-                <div className="flex items-center gap-2 mb-1 text-navy-900 font-bold text-base">
+              <div className="bg-stone-50 p-5 rounded-lg border border-slate-200">
+                <div className="flex items-center gap-2 mb-1.5 text-navy-900 font-bold text-base">
                   <Scale className="w-4 h-4 text-teal-600" />
                   <span>Colorado Centered</span>
                 </div>
-                <p className="text-xs text-slate-600">
+                <p className="text-xs text-slate-600 leading-relaxed">
                   Deep familiarity with Colorado judicial district procedures, statutory deadlines, and standard forms.
                 </p>
               </div>

@@ -70,7 +70,7 @@ export const Privacy: React.FC<PrivacyProps> = ({ onNavigate }) => {
           </h2>
           <div className="h-0.5 w-12 bg-gold-500/70" />
           <p className="text-slate-700 text-sm sm:text-base leading-relaxed">
-            If you have questions about your stored records or wish to update your contact details, please contact ProSe Partners LLC at <a href="mailto:neshelle@prosepartnersllc.com" className="text-navy-900 font-bold hover:underline">neshelle@prosepartnersllc.com</a> or call (720) 924-1203.
+            If you have questions about your stored records or wish to update your contact details, please contact ProSe Partners LLC at <a href="mailto:info@prosepartnersllc.com" className="text-navy-900 font-bold hover:underline">info@prosepartnersllc.com</a> or call (720) 924-1203.
           </p>
         </section>
 

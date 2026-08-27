@@ -18,7 +18,7 @@ export const PacketDetailModal: React.FC<PacketDetailModalProps> = ({
   const handlePurchaseClick = () => {
     // Transparent placeholder checkout notification for GitHub Pages static site
     alert(
-      `[Checkout Link Placeholder]\n\nIn the production store, this button redirects to the secure payment provider link (e.g. Stripe Payment Link or Square Checkout) for:\n\n"${packet.title}" ($${packet.price}).\n\nTo inquire directly or request this packet right now, please contact ProSe Partners LLC at neshelle@prosepartnersllc.com or call (720) 924-1203.`
+      `[Checkout Link Placeholder]\n\nIn the production store, this button redirects to the secure payment provider link (e.g. Stripe Payment Link or Square Checkout) for:\n\n"${packet.title}" ($${packet.price}).\n\nTo inquire directly or request this packet right now, please contact ProSe Partners LLC at info@prosepartnersllc.com or call (720) 924-1203.`
     );
   };
 

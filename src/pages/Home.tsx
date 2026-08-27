@@ -484,47 +484,26 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         </div>
       </section>
 
-      {/* 8. MEET PROSE PARTNERS / OWNER INTRODUCTION PREVIEW */}
+      {/* 8. ABOUT PROSE PARTNERS LLC PREVIEW */}
       <section className="py-16 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-stone-50 rounded-xl p-8 sm:p-12 border border-slate-200 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
-            {/* Owner Portrait Preview */}
-            <div className="md:col-span-5 lg:col-span-4 flex justify-center">
-              <div className="relative">
-                <div className="w-56 h-56 sm:w-64 sm:h-64 rounded-full p-2 bg-gradient-to-tr from-navy-900 via-gold-500 to-navy-800 shadow-xl overflow-hidden">
-                  <img
-                    src="/images/owner_portrait.jpg"
-                    alt="Owner of ProSe Partners LLC"
-                    className="w-full h-full object-cover rounded-full bg-slate-200"
-                    referrerPolicy="no-referrer"
-                    onError={(e) => {
-                      // Fallback if image path differs
-                      (e.target as HTMLElement).style.display = 'none';
-                    }}
-                  />
-                </div>
-                <div className="absolute bottom-2 right-2 bg-navy-900 text-gold-400 text-xs font-bold px-3 py-1 rounded-full border border-gold-500 shadow-md">
-                  ProSe Partners LLC
-                </div>
-              </div>
-            </div>
-
+          <div className="bg-stone-50 rounded-xl p-8 sm:p-12 border border-slate-200 max-w-4xl mx-auto space-y-4">
             {/* Intro text */}
-            <div className="md:col-span-7 lg:col-span-8 space-y-4">
+            <div className="space-y-4">
               <div className="text-xs uppercase tracking-widest text-gold-600 font-bold">
                 About the Business
               </div>
               <h3 className="text-2xl sm:text-3xl font-bold text-navy-900">
-                Bridging the Gap in Legal Document Management
+                About ProSe Partners LLC
               </h3>
               <div className="h-0.5 w-16 bg-gold-500" />
               <p className="text-slate-700 text-base leading-relaxed">
                 ProSe Partners LLC was created to help bridge the gap between handling everything alone and paying for traditional full-service legal representation. We bring extensive practical experience, structured file systems, and dedicated focus to legal paperwork.
               </p>
-              <p className="text-slate-600 text-sm leading-relaxed">
+              <p className="text-slate-600 text-base leading-relaxed">
                 Whether assisting an individual Personal Representative with probate administration filings or helping a personal injury attorney index 2,000 pages of medical records, we deliver organized, detail-oriented results.
               </p>
-              <div className="pt-2">
+              <div className="pt-3">
                 <button
                   onClick={() => onNavigate('about')}
                   className="text-navy-900 hover:text-gold-600 font-bold text-sm inline-flex items-center gap-1.5 transition-colors"

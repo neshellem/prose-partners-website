@@ -80,12 +80,12 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
               <span className="font-semibold tracking-wide">(720) 924-1203</span>
             </a>
             <a
-              href="mailto:neshelle@prosepartnersllc.com"
+              href="mailto:info@prosepartnersllc.com"
               className="inline-flex items-center gap-1.5 text-slate-200 hover:text-[#D4AF37] transition-colors"
               title="Email ProSe Partners LLC"
             >
               <Mail className="w-3.5 h-3.5 text-[#D4AF37]" />
-              <span className="hidden xs:inline">neshelle@prosepartnersllc.com</span>
+              <span className="hidden xs:inline">info@prosepartnersllc.com</span>
               <span className="xs:hidden">Email</span>
             </a>
           </div>
@@ -436,7 +436,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
 
             <div className="pt-4 border-t border-[#0f2c4f] text-xs text-slate-300 space-y-1">
               <div>Phone: (720) 924-1203</div>
-              <div>Email: neshelle@prosepartnersllc.com</div>
+              <div>Email: info@prosepartnersllc.com</div>
               <div>Location: Colorado</div>
             </div>
           </div>
