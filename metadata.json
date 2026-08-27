@@ -1,0 +1,6 @@
+{
+  "name": "ProSe Partners LLC",
+  "description": "Professional legal document preparation, procedural support, probate and fiduciary administration support, records organization, and self-help resources in Colorado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

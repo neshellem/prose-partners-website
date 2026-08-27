@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+
+  html {
+    font-family: "Times New Roman", Times, serif !important;
+    scroll-behavior: smooth;
+    color: #1a202c;
+  }
+
+  body {
+    font-family: "Times New Roman", Times, serif !important;
+    background-color: #F8F9FA;
+    color: #333333;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif !important;
+    letter-spacing: -0.01em;
+  }
+
+  button, input, select, textarea, optgroup {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+}
+
+/* Professional Polish Color Tokens */
+.bg-navy-950 { background-color: #07111e; }
+.bg-navy-900 { background-color: #002147; }
+.bg-navy-800 { background-color: #082b54; }
+.bg-navy-700 { background-color: #10386b; }
+.text-navy-900 { color: #002147; }
+.text-navy-800 { color: #082b54; }
+.border-navy-900 { border-color: #002147; }
+.border-navy-800 { border-color: #082b54; }
+
+.text-gold-600 { color: #b89326; }
+.text-gold-500 { color: #D4AF37; }
+.text-gold-400 { color: #e5c358; }
+.bg-gold-500 { background-color: #D4AF37; }
+.bg-gold-600 { background-color: #b89326; }
+.border-gold-500 { border-color: #D4AF37; }
+.border-gold-400 { border-color: #e5c358; }
+.border-gold-300 { border-color: #edd98e; }
+
+.bg-teal-900 { background-color: #00363a; }
+.text-teal-700 { color: #006064; }
+.text-teal-600 { color: #00838f; }
+
+/* Custom print & utility styles */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+}
+
